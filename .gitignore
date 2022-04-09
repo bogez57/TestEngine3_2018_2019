@@ -1,0 +1,6 @@
+build/
+bin/
+*.sgi
+*.ctm
+.vs/
+_SYNCAPP
