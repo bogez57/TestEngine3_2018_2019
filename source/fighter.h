@@ -1,9 +1,9 @@
 #ifndef FIGHTER_INCLUDE
 #define FIGHTER_INCLUDE
 
-#include "skeleton.h"
-#include "animation.h"
-#include "collision_detection.h"
+#include "2d_skeleton.h"
+#include "2d_animation.h"
+#include "2d_collision_detection.h"
 #include "my_math.h"
 
 struct Fighter

@@ -2,8 +2,8 @@
 #define ANIMATION_INCLUDE
 
 #include <string.h>
-#include "skeleton.h"
-#include "collision_detection.h"
+#include "2d_skeleton.h"
+#include "2d_collision_detection.h"
 #include "json.h"
 
 /*

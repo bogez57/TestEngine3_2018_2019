@@ -2,8 +2,8 @@
 
 #include "atlas.h"
 #include "shared.h"
-#include "skeleton.h"
-#include "animation.h"
+#include "2d_skeleton.h"
+#include "2d_animation.h"
 #include "fighter.h"
 
 struct Game_Camera

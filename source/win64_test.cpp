@@ -752,7 +752,7 @@ int CALLBACK WinMain(HINSTANCE CurrentProgramInstance, HINSTANCE PrevInstance, L
             Rendering_Info renderingInfo {};
             Platform_Services platformServices {};
             Win32_Game_Replay_State GameReplayState {};
-            Win32_Game_Code GameCode { Win32_LoadGameCodeDLL("w:/test_engine/build/gamecode.dll") };
+            Win32_Game_Code GameCode { Win32_LoadGameCodeDLL("bin/gamecode.dll") };
             
             void* gameMemoryPtr = VirtualAlloc(baseAddress, Gigabytes(1) + Megabytes(64), MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE); //TODO: Add large page support?)
             if(!gameMemoryPtr) Win32_LogErr("Virtual Alloc Failed!");

@@ -18,8 +18,8 @@ set PlatformStaticLibraries=glew32s.lib
 
 set GameIncludePaths=-I %cwd%third_party\boagz\include -I %cwd%third_party\boagz\src -I %cwd%third_party\stb\include
 
-IF NOT EXIST build mkdir build
-pushd build
+IF NOT EXIST build mkdir bin
+pushd bin
 
 cl /c ..\source\gamecode.cpp %CommonCompilerFlags% %GameIncludePaths% -DDEVELOPMENT_BUILD=1
 link gamecode.obj -dll -PDB:gamecode_%random%.pdb -export:GameUpdate %CommonLinkerFlags%
